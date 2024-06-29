@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "206923296292",
+    "project_id": "turkcell-gygy-final",
+    "storage_bucket": "turkcell-gygy-final.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:206923296292:android:8ee2a71c5fa01fcc57f2b1",
+        "android_client_info": {
+          "package_name": "com.sercancelik.turkcellgygfinal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJKU8I_06LJg2I65bKvB-XIE7btMV4E2c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:206923296292:android:b1ee984958c4a7fe57f2b1",
+        "android_client_info": {
+          "package_name": "com.sercancelik.turkcellgygyfinal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJKU8I_06LJg2I65bKvB-XIE7btMV4E2c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

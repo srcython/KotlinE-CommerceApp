@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etSearch"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/bg_product_item"
+        android:hint="Ne aramak istersiniz?"
+        android:textColorHint="@color/white"
+        android:paddingEnd="12dp"
+        android:paddingStart="12dp"
+        android:textSize="15sp"
+        android:textColor="@color/white"
+        android:drawableEnd="@drawable/ic_search"
+        android:drawableTint="@color/white"
+        android:backgroundTint="#3E4351"
+        android:inputType="text" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:progressTint="@color/black2"
+        android:visibility="gone"
+        android:layout_gravity="center"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvProducts"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp"
+        android:visibility="gone" />
+</LinearLayout>
