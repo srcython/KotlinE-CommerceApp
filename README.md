@@ -41,7 +41,6 @@ The project utilizes several modern technologies and libraries to provide a robu
 - **Keystore**
 - **Retrofit**
 - **Clean Architecture**
-- **Data Store**
 - **Pagination**
 - **Viewpager**
 - **Gson**
